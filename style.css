@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+     font-family: "Roboto", sans-serif;
+}
+.navbar{
+    background: rgba(255, 255, 255, 1);
+
+}
+.nav-link{
+    color: rgba(28, 30, 83, 1);
+}
+.hero{
+    background:#F5FCFF;
+}
+.btn{
+    background: #5E3BEE !important;
+    color: white;
+}
+.head h6 h1 {
+   color: #282938;
+}
+span{
+    color: #5E3BEE;
+}
+.my-skills{
+    background-color: white;
+}
+.color{
+    background-color:#F5FCFF;
+}
+.customer{
+    background-color:#F5FCFF ;
+}
+.col{
+  transition: 0.5s;
+}
+.col:hover{
+  transform: translateY(-15px);
+  cursor: pointer;
+}
+.testimonial{
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000030;
+}
+.testimonial img{
+  border-radius: 50%;
+}
+
+.stars{
+  color: #c67802;
+}
+.contact{
+    color: #282938;
+
+}
+.form-control{
+  border-color: #5E3BEE;
+  box-shadow:rgba(94, 59, 238, 1) ;
+}
+.navbar{
+  background-color:#F5FCFF 
+}
+.input{
+  background-color:#F5FCFF ;
+}
+.social-link a {
+  color: rgba(0, 0, 0, 1);
+}
+.image{
+  margin-left:130px ;
+}
+.much{
+  margin-left: 180px;
+}
