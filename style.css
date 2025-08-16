@@ -22,6 +22,12 @@ body{
     background: #5E3BEE !important;
     color: white;
 }
+.btn:hover{
+    background-color:#5E3BEE !important;
+    color: white !important;
+    transform: scale(1.05) !important;
+    border-radius: 5px !important;
+}
 .head h6 h1 {
    color: #282938;
 }
