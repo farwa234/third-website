@@ -16,7 +16,8 @@
 
 <body>
   <!-- Navbar start -->
-  <nav class="navbar navbar-expand-lg">
+   <header>
+  <nav class="navbar navbar-expand-lg first px-lg-5">
     <div class="container-fluid">
       <a class="navbar-brand ms-5" href="#"><img src="images/Logo .png" class="image-fluid" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -40,11 +41,12 @@
         </ul>
 
         <form class="d-flex" role="search">
-          <button class="btn btn-outline me-5" type="submit">Contact me</button>
+          <button class="btn btn-outline-primary me-5" type="submit">Contact me</button>
         </form>
       </div>
     </div>
   </nav>
+</header>  
   <!-- navbar end -->
 
   <!-- hero section -->
@@ -64,49 +66,67 @@
     </div>
   </section>
   <!-- skill section  -->
-  <section class="my-skills">
+  <section class="my-skills py-5">
 
-    <div class="container px-4 py-5" id="featured-3">
+    <div class="container text-lg-start text-center" id="featured-3">
       <h6>My Skills</h6>
       <h2 class="pb-2">My Expertise</h2>
-      <div class="col g-2 py-3 col-md-4 cols-lg-4 d-flex">
-        <div class="main gap-3 mt-3 mb-3 p-2">
-          <div class="color feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img src="images/Strategy & Direction.png" class="img-fluid" alt="">
+ <div class="row g-4 d-flex">
+                <!-- Card 1 -->
+                <div class="col col-md-3">
+                    <div class=" py-2 px-4 mx-auto color">
+                        <div class=" d-flex justify-content-start justify-content-lg-center align-items-center mx-auto">
+                            <img src="images/Strategy & Direction.png" alt="" class="image fluid" style="max-width: 80px;" />
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-3">Strategy & Direction</h5>
+                        <p class="fw-normal">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.
+                        </p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col col-md-3">
+                    <div class=" py-2 px-4 mx-auto color">
+                        <div class=" d-flex justify-content-start justify-content-lg-center align-items-center mx-auto">
+                            <img src="images/Branding & Logo.png" alt="" class="image fluid" style="max-width: 80px;"/>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-3">Branding & Logo</h5>
+                        <p class="fw-normal">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.
+                        </p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col col-md-3">
+                    <div class=" py-2 px-4 mx-auto color ">
+                        <div class=" d-flex justify-content-start justify-content-lg-center align-items-center mx-auto">
+                            <img src="images/UI & UX Design.png" alt="" class="image fluid"style="max-width: 80px;"/>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-3">UI & UX Design</h5>
+                        <p class="fw-normal">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.
+                        </p>
+                    </div>
+                </div>
+                <!-- Card 4-->
+                <div class="col col-md-3">
+                    <div class=" py-2 px-4 mx-auto color">
+                        <div class="d-flex justify-content-start justify-content-lg-center align-items-center mx-auto">
+                            <img src="images/Webflow Development.png" alt="" class="image fluid"style="max-width: 80px;" />
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-3">Webflow Development</h5>
+                        <p class="fw-normal">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Strategy & Direction</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-              tristique.</p>
-          </div>
-          <div class="color feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img src="images/Branding & Logo.png" class="img-fluid" alt="">
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Branding & Logo</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-              tristique.</p>
-          </div>
-          <div class="color feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img src="images/UI & UX Design.png" class="img-fluid" alt="">
-            </div>
-            <h3 class="fs-2 text-body-emphasis">UI & UX Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-              tristique.</p>
-          </div>
-          <div class="color feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img src="images/Webflow Development.png" class="img-fluid" alt="">
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Webflow Development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-              tristique.</p>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
   <!-- About section -->
   <section class="about">
     <div class="container col-xxl-8 px-4 py-5">
@@ -199,7 +219,7 @@
       <h1 class="pb-5">Customer testimonials</h1>
 
       <div class="row d-flex flex-wrap justify-content-center">
-        <div class="col">
+        <div class="col-lg-4 col-sm-12">
           <div class="testimonial">
             <img decoding="async" src="images/test-1.png" class="img-fluid p-2" alt="Image 1">
             <div class="name p-2">
@@ -223,7 +243,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col-lg-4 col-sm-12">
           <div class="testimonial">
             <img decoding="async" src="images/test-2.png" class="img-fluid p-2" alt="Image 2">
             <div class="name p-2">
@@ -247,7 +267,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col-lg-4 col-sm-12">
           <div class="testimonial">
             <img decoding="async" src="images/test-3.png" class="img-fluid p-2" alt="Image 3">
             <div class="name p-2">
@@ -276,32 +296,32 @@
   </section>
   <!-- testimonail end -->
   <!-- Contact section -->
-  <section class="contact">
+  <section class="contact py-3">
     <div class="col-md-7 col-lg-8">
       <h6 class="text-center pt-5">Get In Touch,</h6>
       <h1 class="mb-3 text-center">Contact Me</h1>
       <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <form class="needs-validation p-5 m-5" novalidate="">
         <div class="row g-3">
-          <div class="col-sm-6"> <label for="firstName" class="form-label">First name</label> <input type="text"
+          <div class="col-12 col-md-6"> <label for="firstName" class="form-label">First name</label> <input type="text"
               class="form-control" id="firstName" placeholder="" value="" required="" fdprocessedid="pxw6i">
             <div class="invalid-feedback">
               Valid first name is required.
             </div>
           </div>
-          <div class="col-sm-6"> <label for="lastName" class="form-label">Last name</label> <input type="text"
+          <div class="col-12 col-md-6"> <label for="lastName" class="form-label">Last name</label> <input type="text"
               class="form-control" id="lastName" placeholder="" value="" required="" fdprocessedid="eflc3k">
             <div class="invalid-feedback">
               Valid last name is required.
             </div>
           </div>
-          <div class="col-sm-6"> <label for="Email" class="form-label">Email</label> <input type="email"
+          <div class="col-12 col-md-6"> <label for="Email" class="form-label">Email</label> <input type="email"
               class="form-control" id="Email" placeholder="" value="" required="" fdprocessedid="eflc3k">
             <div class="invalid-feedback">
               Valid last name is required.
             </div>
           </div>
-          <div class="col-sm-6"> <label for="PhoneNumber" class="form-label">Phone Number</label> <input type="number"
+          <div class="col-12 col-md-6"> <label for="PhoneNumber" class="form-label">Phone Number</label> <input type="number"
               class="form-control" id="PhoneNumber" placeholder="" value="" required="" fdprocessedid="eflc3k">
             <div class="invalid-feedback">
               Valid last name is required.
@@ -314,7 +334,7 @@
               Please enter your shipping address.
             </div>
           </div>
-          <div class="mb-3">
+          <div class="col-12">
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type a message"
               rows="3"></textarea>
@@ -331,7 +351,7 @@
   <!-- contact end -->
   <!-- Inputs section start -->
   <section class="input justify-content-sm-center">
-
+<!-- first -->
     <nav class="navbar navbar-expand-lg rounded" aria-label="Eleventh navbar example">
       <div class="container-fluid"> <a class="navbar-brand" href="#"><img src="images/Logo .png" class="img-fluid image" alt=""></a> <button class="navbar-toggler"
           type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09"
@@ -350,30 +370,11 @@
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
           <a href="#"><i class="fa-brands fa-twitter"></i></a>
           <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-
-
-
-
-
-
         </div>
-
-
-
-
-
-
-
-
-        
         </div>
       </div>
     </nav>
-
-
-
-
-
+<!-- last -->
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <p class="col-md-4 mb-0 text-body-secondary">Made with 💖 by FarwaZafar</p> <a href="/"
@@ -387,39 +388,7 @@
           <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Cookies settting</a></li>
       </footer>
     </div>
-
-
-
-
-
   </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>
